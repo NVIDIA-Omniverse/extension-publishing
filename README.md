@@ -5,7 +5,7 @@
 <h3 align="center">
     Expand your audience with Omniverse
 </h3>
-<p align="center">Whether you’re an independent developer building a tool for a specific task, or an enterprise developer creating a digital twin, you need to build the tools and workflows to get the job done. Below you can 
+<p align="center">Whether you’re an independent developer building a tool for a specific task, or an enterprise developer creating a digital twin, you need to build the tools and workflows to get the job done. Below you can find resources and instructions in reaching new audiences with Omniverse.
 </p>
 
 <p align="center">
@@ -13,6 +13,9 @@
 </p>
 
 ## Getting Started    
+<details>
+  <summary>Expand for steps on Getting Started
+</summary>
 Ready to build your first extension? Check out the steps below to get up and running in no time. 
 
 Once you're ready to share with the world, you can publish your extension to the community via GitHub - instructions can be found below.
@@ -38,9 +41,12 @@ Visual Studio Code should automatically open with your newly created project, an
 ![VSCode Project](images/vscode-project.png)
 
 You can also check out our [Spawn Primitives Extension Sample](https://github.com/NVIDIA-Omniverse/kit-extension-sample-spawn-prims) tutorial for getting up and running within 10 minutes.  
+</details>  
 
 ## Samples & Resources  
-Below are a number of resources that will help accelerate your learning journey.
+<details>
+  <summary>Expand for resources that will help accelerate your learning journey.
+</summary>
 
 ### Extension Samples  
 Kit comes bundled with a number of extensions, which can be found inside `app/kit/exts`, `app/kit/extscore`, and `app/exts`. Most of these are in Python, and the source is available for your continued learning
@@ -63,13 +69,15 @@ Kit comes bundled with a number of extensions, which can be found inside `app/ki
 * [NVIDIA Omniverse Resource Center - Extensions](https://developer.nvidia.com/nvidia-omniverse-developer-resource-center#extensions) - includes videos and additional resources for learning how to develop extensions
 
 ### Additional Resources  
+
 We have a fantastic community of active developers in our forums and the official Omniverse Discord channel. See the links below for support and connecting with the broader Omniverse developer community:
 * [Omniverse Extension Forums](https://forums.developer.nvidia.com/c/omniverse/extension/399)
 * [NVIDIA Omniverse Discord](https://forums.developer.nvidia.com/t/omniverse-discord-server-is-live/178422)
+</details>  
 
-## Publishing Your Extension  
+## Publishing Your Extension to the Extension Manager
 Below is a high level checklist of what you'll need to do in order for your extension to be easily accessible to the Omniverse community.
- 
+
 ### Prepare    
 :heavy_check_mark: Developer & test your extension  
 :heavy_check_mark: Update your `extension.toml` config file found in `exts\[project]\config`  
@@ -80,7 +88,6 @@ Below is a high level checklist of what you'll need to do in order for your exte
 :heavy_check_mark: Add the `omniverse-kit-extension` [Topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repo so that it shows up [here](https://github.com/topics/omniverse-kit-extension)  
 :heavy_check_mark: Publish a [Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) for your project    
 :heavy_check_mark: Download and unzip your release's `source.zip` file to ensure the the root directory contains the `exts\` folder
-### Submit  
-:heavy_check_mark: Create a short video demonstrating what your extension does  
-:heavy_check_mark: Complete the submission form from the contest landing page [here](https://www.nvidia.com/en-us/omniverse/apps/code/developer-contest/)
 
+## *NEW* Publishing Your Extension on the Omniverse Exchange
+Looking to broaden your reach even more? We are now taking sign-ups for the community to publish directly to the Omniversee Exchange! See the [Omniverse Exchange Publishing Early Access Program](https://developer.nvidia.com/omniverse-exchange-publishing-portal) for more details.
