@@ -94,4 +94,4 @@ Below is a high level checklist of what you'll need to do in order for your exte
 * Download and unzip your release's `source.zip` file to ensure the the root directory contains the `exts\` folder
 
 ## *NEW* Publishing Your Extension on the Omniverse Exchange
-Looking to broaden your reach even more? We are now taking sign-ups for the community to publish directly to the Omniversee Exchange! See the [Omniverse Exchange Publishing Early Access Program](https://developer.nvidia.com/omniverse-exchange-publishing-portal) for more details.
+Looking to broaden your reach even more? We are now taking sign-ups for the community to publish directly to the Omniverse Exchange! See the [Omniverse Exchange Publishing Early Access Program](https://developer.nvidia.com/omniverse-exchange-publishing-portal) for more details.
