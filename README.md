@@ -87,10 +87,11 @@ Below is a high level checklist of what you'll need to do in order for your exte
 :heavy_check_mark: Publish your project to a public repo on GitHub. Ensure your repo's `root` directory contains the `exts\` folder (see our [template](https://github.com/NVIDIA-Omniverse/kit-extension-template) as an example)  
 :heavy_check_mark: Add the `omniverse-kit-extension` [Topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repo so that it shows up [here](https://github.com/topics/omniverse-kit-extension)  
 :heavy_check_mark: Publish a [Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) for your project    
-:heavy_check_mark: Download and unzip your release's `source.zip` file to ensure the the root directory contains the `exts\` folder
+
 ### Troubleshooting  
 * Please allow up to 2 days for your extension to be discoverable in the Extension Manager's Community section.
 * Ensure your extension follows the folder structure mentioned above, and be sure to follow namespacing standards: `companyname.category.appname`
+* Download and unzip your release's `source.zip` file to ensure the the root directory contains the `exts\` folder
 
 ## *NEW* Publishing Your Extension on the Omniverse Exchange
 Looking to broaden your reach even more? We are now taking sign-ups for the community to publish directly to the Omniversee Exchange! See the [Omniverse Exchange Publishing Early Access Program](https://developer.nvidia.com/omniverse-exchange-publishing-portal) for more details.
